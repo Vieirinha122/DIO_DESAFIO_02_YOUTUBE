@@ -1,0 +1,73 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* MENU */
+
+.nav {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+/* ESQUERDA DO NAV */
+.menu-left {
+    padding: 10px;
+    margin: 10px;
+}
+
+#logo-youtube, img {
+    height: 24px;
+    margin-left: 20px;
+}
+
+/* MEIO DO NAV*/
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.pesquisa input[type="text"] {
+    width: 348px;
+    height: 40px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 40px 0px 0px 40px ;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.pesquisa button {
+    border-radius: 5px;
+    width: 57px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#botao-pesquisa {
+    margin: 0 17px;
+}
+
+/* DIREITA DO NAV */
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#foto-perfil {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
