@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
-    font-weight: 600;
 }
 
 html, body {
@@ -77,6 +76,16 @@ html, body {
 
 /* MAIN */
 
+ .container {
+    display: flex;
+    margin: 20px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 10px;
+}
+
 /* PLAYER */
 .player {
     margin: 10px;
@@ -140,6 +149,7 @@ html, body {
     margin: 10px;
     gap: 10px;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -152,6 +162,7 @@ html, body {
     margin: 10px;
     gap: 10px;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -164,6 +175,7 @@ html, body {
     margin: 10px;
     gap: 10px;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -176,5 +188,58 @@ html, body {
     margin: 10px;
     gap: 10px;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
+}
+
+/* ASIDE */
+
+.sidebar {
+    flex: 1;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.video-list {
+    list-style: none;
+    padding: 0;
+}
+
+.video-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.video-item img {
+    cursor: pointer;
+    width: 120px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.infos span {
+    display: flex;
+    text-align: start;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+}
+
+.infos p {
+    display: flex;
+    text-align: start;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+    color: rgba(81, 81, 81, 1);
 }

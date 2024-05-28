@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,13 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <!-- GOOGLE FONTS -->
-</head> 
+</head>
+
 <body>
     <header>
         <nav class="nav">
@@ -30,39 +34,82 @@
         </nav>
     </header>
 
-    <main>
-        <div class="player">
-            <iframe id="video-main" width="952" height="537" src="https://www.youtube.com/embed/HuEADvyhork?si=jJKJOa7qrm6TMWlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p id="titulo-video" >O que é CSS? Seletores e Propriedades | [GUIA 2023] | Getting Started #16</p>
-            <div class="video-actions">
-                <div class="channel-infos">
-                    <img id="logo-dio" src="/asssets/images/Channel Avatar.png" alt="Imagem do canal da Dio">
-                    <span>DIO 83,3 mil inscritos</span>
-                </div> <!-- CHANNEL INFOS -->
-                <div class="botao-inscrever"><button>Inscreva-se</button>
-                </div> <!-- BOTAO-ESCREVER -->
-                <div class="like">
-                    <img src="/asssets/images/thumbs-up.png" alt="Botão do Like">
-                    <p>2 mil</p>
-                </div> <!-- LIKE -->
-                <div class="deslike">
-                    <img src="/asssets/images/thumbs-down.png" alt="">
-                    <p>Não Gostei</p>
-                </div> <!-- DESLIKE -->
-                <div class="share">
-                    <img src="/asssets/images/share-2.png" alt="Botão Compartilhar">
-                    <p>Compartilhar</p>
-                </div> <!-- SHARE -->
-                <div class="download">
-                    <img src="/asssets/images/download.png" alt="Botão Download">
-                    <p>Download</p>
-                </div> <!-- DOWNLOAD -->
+    <div class="container">
+        <main class="main-content">
+            <div class="player">
+                <iframe width="952" height="537" src="https://www.youtube.com/embed/HuEADvyhork?si=Ed1kKHWDPU8o75wy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p id="titulo-video">O que é CSS? Seletores e Propriedades | [GUIA 2023] | Getting Started #16</p>
+                <div class="video-actions">
+                    <div class="channel-infos">
+                        <img id="logo-dio" src="/asssets/images/Channel Avatar.png" alt="Imagem do canal da Dio">
+                        <span>DIO 83,3 mil inscritos</span>
+                    </div> <!-- CHANNEL INFOS -->
+                    <div class="botao-inscrever"><button>Inscreva-se</button>
+                    </div> <!-- BOTAO-ESCREVER -->
+                    <div class="like">
+                        <img src="/asssets/images/thumbs-up.png" alt="Botão do Like">
+                        <p>2 mil</p>
+                    </div> <!-- LIKE -->
+                    <div class="deslike">
+                        <img src="/asssets/images/thumbs-down.png" alt="">
+                        <p>Não Gostei</p>
+                    </div> <!-- DESLIKE -->
+                    <div class="share">
+                        <img src="/asssets/images/share-2.png" alt="Botão Compartilhar">
+                        <p>Compartilhar</p>
+                    </div> <!-- SHARE -->
+                    <div class="download">
+                        <img src="/asssets/images/download.png" alt="Botão Download">
+                        <p>Download</p>
+                    </div> <!-- DOWNLOAD -->
+                </div>
             </div>
-        </div>
-    </main>
-
-    <aside>
-
-    </aside>
+        </main>
+        <aside class="sidebar">
+            <h2>Vídeos Relacionados</h2>
+            <ul class="video-list">
+                <li class="video-item">
+                    <img src="/asssets/images/Thumb.png" alt="">
+                    <div class="infos">
+                        <span>Geração Tech Unimed - BH - Ciência de Dados</span>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações Transmitido há 2 dias</p>
+                    </div>
+                </li>
+                <li class="video-item">
+                    <img src="/asssets/images//image 12.png" alt="">
+                    <div class="infos">
+                        <span>Scrum Talks</span>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,6 mil visualizações Transmitido há 3 dias</p>
+                    </div>
+                </li>
+                <li class="video-item">
+                    <img src="/asssets/images/image 13.png" alt="">
+                    <div class="infos">
+                        <span>Machine Learning Avançado - Fast Track</span>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,7 mil visualizações Transmitido há 4 dias</p>
+                    </div>
+                </li>
+                <li class="video-item">
+                    <img src="/asssets/images/image 14.png" alt="">
+                    <div class="infos">
+                        <span>Global Skills #2 - Project Planning</span>
+                        <p>DigitalInnovationOne</p>
+                        <p>971 visualizações Transmitido há 5 dias</p>
+                    </div>
+                </li>
+                <li class="video-item">
+                    <img src="/asssets/images/image 15.png" alt="">
+                    <div class="infos">
+                        <span>Como aprender a programar Python do ZERO</span>
+                        <p>DigitalInnovationOne</p>
+                        <p>711 visualizações Transmitido há 6 dias</p>
+                    </div>
+                </li>
+        </aside>
+    </div>
 </body>
+
 </html>
